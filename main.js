@@ -1,5 +1,5 @@
 function handleCredentialResponse(response) {
-  const data = jwt_decode(response.credential)
+ console.log(response.credential)
 
   fullName.textContent = data.name
   sub.textContent = data.sub
